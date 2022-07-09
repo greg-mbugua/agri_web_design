@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+body{
+   font-family: Poppins, Inter;
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+nav{
+   font-weight: bold; 
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid  #FAFAFA;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #000;
+    color: #ffffff;
+    padding: 15px 40px 15px 40px;
+    
+ }
+ nav ul li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    transition: 0.75s ease-in;
+ }
+ nav ul li a{
+   text-decoration: none;
+   color: #ffffff;
+   
+ }
+ nav ul li:hover{
+   border-bottom: 4px solid #ED661F;
+ }
+nav .button a button{
+   border-radius: 0;
+   color: #ffffff;
+   height: 45px;
+   background-color: #ED661F;
+   border: none;
+   font-weight: bold;
+   font-size: 18px;
+}
+nav .logo{
+   font-size: 23px;
+   font-weight: bolder;
+}
+nav .button .login_button{
+   margin-right: 30px;
+   color: #ffffff;
+   text-decoration: none;
+   
+}
+#active{
+   border-bottom: 4px solid #ED661F;
+}
+.background_image{
+   display: flex;
+   padding-left: 40px;
+   padding-right: 40px;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   height: 80vh;
+   background-image: url(assets/background_image.png);
+   background-size: 100% 100%;
+   padding-top: 40px;
+   z-index: 3;
+   
+}
+.background_image .text, .background_image .image{
+   width: 50%;
+}
+.background_image .button2 a button{
+   height: 60px;
+   font-size: 20px;
+   font-weight: bold;
+   border: none;
+   border-radius: 0;
+   background-color: #ED661F;
+   color: #ffffff;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+.background_image .text h2{
+   font-size: 30px;
+   font-weight: bolder;
+
+}
+.textcard{
+   position: relative;
+}
+.text_card{
+   width: 40%;
+   height: 150px;
+    margin-top: -50px; 
+   /* transform: translateY(-50px); */
+   display: flex;
+   justify-content: space-between;
+   padding-right: 20px;
+   padding-left: 20px;
+   box-shadow: 3px 3px 6px rgba(19, 19, 19, 0.4);
+   z-index: 5;
+   position: absolute;
+   top: -80px;
+   background-color: #ffffff;
+   left: 50%;
+   align-items: center;
+}
+.text_card .card_contents{
+   text-align: center;
+   font-weight: bold;
+}
