@@ -111,3 +111,108 @@ nav .button .login_button{
    text-align: center;
    font-weight: bold;
 }
+.part1{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-left: 40px;
+   padding-right: 40px;
+   
+}
+.part1 .part1_text{
+margin-top: 10px;
+margin-left: 40px;
+width: 50%;
+}
+.part1 .part1_text .h3{
+   font-size: 30px;
+   font-weight: bolder;
+
+}
+.part1_image{
+   width: 50%;
+   margin-left: 40px;
+   float: right;
+}
+#active2{
+   position: relative;
+   width: fit-content;
+   padding: 15px;
+}
+#active2::before{
+   content: "";
+   position: absolute;
+   border-bottom: 4px solid #ED661F;
+   width: 50%;
+   height: 10px;
+   bottom: 0;
+   left: 0;
+} 
+.part2{
+   padding-top: 10px;
+   padding-left: 40px;
+   padding-right: 40px;
+
+}
+.part2 .category_content{
+   text-align: center;
+}
+.part2 .Category{
+   width: fit-content;
+   margin: auto;
+   padding: 15px;
+   position: relative;
+}
+.part2 .Category::before{
+   content: "";
+   position: absolute;
+   border-bottom: 4px solid #ED661F;
+   width: 20%;
+   height: 10px;
+   bottom: 0;
+   left: 40%;
+   right: 40%;
+}
+.flex_imagetags{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   row-gap: 30px;
+}
+.flex_imagetags .img1{
+   width: 300px;
+}
+.card_body{
+   padding: 10px;
+}
+.img1 .card_img{
+   width: 100%;
+   height: 200px;
+
+}
+.see_more a{
+   text-decoration: none;
+   color: black;
+   width: fit-content;
+   padding: 10px 0 10px 10px;
+   position: relative;
+}
+.see_more a::before{
+   content: "";
+   position: absolute;
+   border-bottom: 4px solid #ED661F;
+   width: 50%;
+   height: 10px;
+   bottom: 0;
+   left: 0;
+   
+}
+
+.see_more i{
+   color: #ED661F;
+}
+.see_more {
+   text-align: right;
+}
+
+
