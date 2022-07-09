@@ -217,5 +217,11 @@ width: 50%;
 .reviews .re_views{
    padding-top: 30px;
 }
+.star-ratings .efficiency:hover{
+   background-color: #ffffff;
+   
+
+}
+.star-ratings :hover
 
 
