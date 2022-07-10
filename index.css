@@ -207,8 +207,14 @@ width: 50%;
    width: 50%;
    height: 10px;
    bottom: 0;
-   left: 0;
-   
+   left: 0; 
+}
+.star-ratings .efficiency{
+   margin-top: 50px;
+   border-top: #ffffff;
+}
+.checked{
+   color: #ED661F;
 }
 
 .see_more i{
@@ -217,14 +223,19 @@ width: 50%;
 .see_more {
    text-align: right;
 }
-.reviews .re_views{
-   padding-top: 30px;
-}
-.star-ratings .efficiency:hover{
-   background-color: #ffffff;
+ .star-ratings{
+   display: flex;
+   width: fit-content;
+   justify-content: space-between;
+   width: 100%;
    
-
+}.star-ratings .market_produce{
+   padding-left: 100px;
+   margin-top: 50px;
 }
-.star-ratings :hover
+.star-ratings .connecting-rural-tourban{
+   padding-left: 100px;
+   margin-top: 50px;
+}
 
 
