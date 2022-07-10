@@ -209,9 +209,23 @@ width: 50%;
    bottom: 0;
    left: 0; 
 }
-.star-ratings .efficiency{
+.reviews{
+   justify-content: center;
+}
+.star-ratings{
+   width: 100%;
+   justify-content: space-between;
+}
+.star-ratings .card1{
    margin-top: 50px;
    border-top: #ffffff;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 100px;
+  height: auto;
+}
+.star-ratings .card1:hover{
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 .checked{
    color: #ED661F;
@@ -229,13 +243,34 @@ width: 50%;
    justify-content: space-between;
    width: 100%;
    
-}.star-ratings .market_produce{
+}.star-ratings .card2{
    padding-left: 100px;
    margin-top: 50px;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   transition: 0.3s;
+   padding: 100px;
+   height: auto;
+   border: 15px;
 }
-.star-ratings .connecting-rural-tourban{
+.star-ratings .card2:hover{
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.star-ratings .card3{
    padding-left: 100px;
    margin-top: 50px;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   transition: 0.3s;
+   padding: 100px;
+   height: auto;
+}
+.star-ratings .card3:hover{
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.star-ratings .card1 .icone_image{
+   max-width: 100%;
+   height: auto;
+   vertical-align: middle;
+   border-radius: 5px;
 }
 
 
