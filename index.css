@@ -173,6 +173,9 @@ width: 50%;
    left: 40%;
    right: 40%;
 }
+.part3{
+   margin-bottom: 40px;
+}
 .flex_imagetags{
    display: flex;
    justify-content: space-between;
