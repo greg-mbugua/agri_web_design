@@ -278,5 +278,32 @@ width: 50%;
    vertical-align: middle;
    border-radius: 5px;
 }
+.star-ratings .icone_image{
+   line-height: 1.5;
+   font-size: smaller;
+   display: flex;
+}
+.read_more a{
+   text-decoration: none;
+   color: black;
+   width: fit-content;
+   padding: 10px 0 10px 10px;
+   position: relative;
+}
+.read_more a::before{
+   content: "";
+   position: absolute;
+   border-bottom: 4px solid #ED661F;
+   width: 50%;
+   height: 10px;
+   bottom: 0;
+   left: 0; 
+}
+.read_more i{
+   color: #ED661F;
+}
+.read_more {
+   text-align: right;
+}
 
 
